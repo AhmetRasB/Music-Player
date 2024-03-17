@@ -57,5 +57,10 @@ namespace Music_Player
         {
             Player.Ctlcontrols.next();
         }
+
+        private void openFileDialog1_FileOk(object sender, CancelEventArgs e)
+        {
+
+        }
     }
 }

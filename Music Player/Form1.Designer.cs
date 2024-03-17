@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            Syncfusion.Windows.Forms.Tools.SliderCollection sliderCollection5 = new Syncfusion.Windows.Forms.Tools.SliderCollection();
+            Syncfusion.Windows.Forms.Tools.SliderCollection sliderCollection7 = new Syncfusion.Windows.Forms.Tools.SliderCollection();
             this.Player = new AxWMPLib.AxWindowsMediaPlayer();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.toggleButton1 = new Syncfusion.Windows.Forms.Tools.ToggleButton();
@@ -68,7 +68,7 @@
             this.toggleButton1.MinimumSize = new System.Drawing.Size(52, 20);
             this.toggleButton1.Name = "toggleButton1";
             this.toggleButton1.Size = new System.Drawing.Size(90, 40);
-            this.toggleButton1.Slider = sliderCollection5;
+            this.toggleButton1.Slider = sliderCollection7;
             this.toggleButton1.TabIndex = 2;
             this.toggleButton1.Text = "toggleButton1";
             this.toggleButton1.Click += new System.EventHandler(this.toggleButton1_Click);
@@ -109,6 +109,8 @@
             // openFileDialog1
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
+            this.openFileDialog1.Multiselect = true;
+            this.openFileDialog1.FileOk += new System.ComponentModel.CancelEventHandler(this.openFileDialog1_FileOk);
             // 
             // sfButton4
             // 

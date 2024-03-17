@@ -84,6 +84,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -106,6 +107,15 @@
       <Isolated>False</Isolated>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="img\Screenshot 2024-03-18 000241.png" />
+    <Content Include="img\Screenshot 2024-03-18 000254.png" />
+    <Content Include="img\Screenshot 2024-03-18 000259.png" />
+    <Content Include="img\Screenshot 2024-03-18 000308.png" />
+    <Content Include="img\Screenshot 2024-03-18 000312.png" />
+    <Content Include="img\Screenshot 2024-03-18 000315.png" />
+    <Content Include="img\Screenshot 2024-03-18 000325.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
