@@ -42,6 +42,20 @@ namespace Music_Player
                 Player.Ctlcontrols.play(); 
             }
         }
-        
+
+        private void sfButton2_Click(object sender, EventArgs e)
+        {
+            Player.Ctlcontrols.stop();
+        }
+
+        private void sfButton5_Click(object sender, EventArgs e)
+        {
+            Player.Ctlcontrols.previous();
+        }
+
+        private void sfButton4_Click(object sender, EventArgs e)
+        {
+            Player.Ctlcontrols.next();
+        }
     }
 }
